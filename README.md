@@ -2,55 +2,37 @@
 
 # Project Name
 
-> Description the project.
+
+> My Portfolio.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap
 
-## Live Demo (if available)
+## Live Demo 
+[Live Demo Link](https://royjumah.github.io/My-portfolio/)
 
-[Live Demo Link](https://livedemo.com)
+## Preview image
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+![alt text](https://raw.githubusercontent.com/RoyJumah/My-portfolio/c1d02b90c8e0a07e0400c37f678c415fd5169a9e/Images/preview-img.png)
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Roy Jumah**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@RoyJumah](https://github.com/RoyJumah)
+- Twitter: [@_royissues](https://twitter.com/_royissues)
+- LinkedIn: [@roy_jumah](https://www.linkedin.com/in/roy-jumah/)
 
-👤 **Author2**
+👤 **Salwa Ballouti**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@SalwaBallouti](https://github.com/Salwa99)
+- Twitter: [@_salwaballouti](https://twitter.com/salwa_ballouti)
+- LinkedIn: [@salwaballouti](https://www.linkedin.com/in/salwa-ballouti-096358251/)
 
 ## 🤝 Contributing
 
@@ -64,12 +46,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I would like to thank Microverse for providing me with the materials that made it possible to finish this exercise
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
