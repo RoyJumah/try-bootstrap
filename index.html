@@ -448,6 +448,73 @@
           </div>
         </div>
       </section>
+
+      <footer
+        class="contact mt-5 bg-primary d-flex justify-content-center align-items-center p-5 bg-image"
+        style="
+          background-image: url('images/contact-form.png');
+          height: 779px;
+          background-position: right top;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+
+          border-top-left-radius: 150px;
+        "
+      >
+        <form
+          class="pt-5 w-50 d-flex flex-column justify-content-center align-items-center"
+          action=""
+        >
+          <h2 class="fs-8 text-light fw-bold mb-3 text-center text-capitalize">
+            contact us
+          </h2>
+          <p class="fs-3 text-light text-center">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <div class="mb-3 col-md-12">
+            <label for="full-name" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputYourName"
+              aria-describedby="Name"
+              placeholder="John Smith"
+              required
+              maxlength="30"/>
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+
+          <div class="mb-3 col-md-12">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="example@gmail.com"
+              required
+              maxlength="30"/>
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <label for="comments" class="form-label"></label>
+            <textarea
+              class="form-control"
+              placeholder="type your message here.."
+              id="comments "
+              rows="3"
+              required
+              maxlength="200"></textarea>
+          </div>
+          <button
+            type="submit"
+            class="mt-2 btn btn-outline-primary text-capitalize bg-light">
+            get my resume
+          </button>
+        </form>
+      </footer>
     </main>
   </body>
 </html>
