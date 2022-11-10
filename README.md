@@ -13,7 +13,7 @@
 - Bootstrap
 
 ## Live Demo 
-[Live Demo Link](https://royjumah.github.io/My-portfolio/)
+[Live Demo Link](https://royjumah.github.io/try-bootstrap/)
 
 ## Preview image
 
