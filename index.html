@@ -42,20 +42,46 @@
       box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
       transform: translateY(-1.2rem);
     }
+
+    body {
+      font-family: Poppins, sans-serif;
+      background-color: #e6e6e6;
+    }
+
+    nav {
+      background-color: #fff;
+    }
+
+    .about {
+      border-top-right-radius: 100px;
+    }
+
+    .headline {
+      background-image: url("images/Header\ bg.png");
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      border-bottom-left-radius: 150px;
+    }
+
+    .about {
+      background-image: url("images/contact-form.png");
+      height: 779px;
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      border-top-left-radius: 150px;
+    }
   </style>
-  <body style="font-family: Poppins, sans-serif; background-color: #e6e6e6">
+  <body>
     <main>
       <nav
         class="navbar navbar-expand-lg bg-light navbar-light d-flex justify-content-between"
-        style="background-color: #fff"
       >
         <div class="container">
-          <a
-            href="#"
-            class="my_logo text-decoration-none"
-            style="font-size: 24px"
-            >My Portfolio</a
-          >
+          <a href="#" class="my_logo text-decoration-none fs-4">My Portfolio</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -82,16 +108,7 @@
       </nav>
 
       <section
-        class="bg-light text-dark p-5 bg-image d-flex align-items-center bg-light"
-        style="
-          background-image: url('images/Header\ bg.png');
-          height: 100vh;
-          background-repeat: no-repeat;
-          background-size: 100% 100%;
-
-          border-bottom-left-radius: 150px;
-        "
-        ;
+        class="headline bg-light text-dark p-5 bg-image d-flex align-items-center bg-light"
       >
         <div class="container">
           <h1 class="fs-9 fw-bold text-capitalize">
@@ -319,10 +336,7 @@
         </div>
       </section>
 
-      <section
-        class="about p-5 bg-light"
-        style="border-top-right-radius: 100px"
-      >
+      <section class="about p-5 bg-light">
         <div class="container-fluid">
           <div class="row">
             <div class="col-6">
@@ -451,15 +465,6 @@
 
       <footer
         class="contact mt-5 bg-primary d-flex justify-content-center align-items-center p-5 bg-image"
-        style="
-          background-image: url('images/contact-form.png');
-          height: 779px;
-          background-position: right top;
-          background-repeat: no-repeat;
-          background-size: 100% 100%;
-
-          border-top-left-radius: 150px;
-        "
       >
         <form
           class="pt-5 w-50 d-flex flex-column justify-content-center align-items-center"
@@ -482,7 +487,8 @@
               aria-describedby="Name"
               placeholder="John Smith"
               required
-              maxlength="30"/>
+              maxlength="30"
+            />
             <div id="emailHelp" class="form-text"></div>
           </div>
 
@@ -495,7 +501,8 @@
               aria-describedby="emailHelp"
               placeholder="example@gmail.com"
               required
-              maxlength="30"/>
+              maxlength="30"
+            />
             <div id="emailHelp" class="form-text"></div>
           </div>
           <div class="col-md-12 mb-3">
@@ -506,11 +513,13 @@
               id="comments "
               rows="3"
               required
-              maxlength="200"></textarea>
+              maxlength="200"
+            ></textarea>
           </div>
           <button
             type="submit"
-            class="mt-2 btn btn-outline-primary text-capitalize bg-light">
+            class="mt-2 btn btn-outline-primary text-capitalize bg-light"
+          >
             get my resume
           </button>
         </form>
